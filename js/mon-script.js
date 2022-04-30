@@ -12,12 +12,12 @@
     });
 
 
-    $('#commencez').on("mouseover", function(){
-        $('#imgHover').css( "display", "none" );
-        $('#imgHoverbis').css( "display", "block" );
-        // $('#commencez').css( "display" , "none" );
-        return false;
-    });
+    // $('#commencez').on("mouseover", function(){
+    //     $('#imgHover').css( "display", "none" );
+    //     $('#imgHoverbis').css( "display", "block" );
+    //     // $('#commencez').css( "display" , "none" );
+    //     return false;
+    // });
 
     clearInterval()
 commencez
