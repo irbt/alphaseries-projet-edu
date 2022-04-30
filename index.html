@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Infos pour le navigateur -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta description -->
+    <meta name="description"
+        content="Alpha-Series est votre application qui permet de gérer toutes vos séries TV préférées au même endroit. Planifier le visionnage dès maintenant">
+    <!-- SEO Titre de l'onglet entre 14 et 44 chars -->
+    <title>Alpha-Series - Organiser vos séries TV</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- Début du site ici -->
+    <header class="d-flex jc-sb ai-c wrap">
+        <div>
+            <img id="logo" src="./images/logoipsum-logo-55.svg" alt="Logo" width="168" height="41">
+        </div>
+        <nav class="">
+            <a href="index.html">Accueil</a>
+            <a href="series.html">Séries</a>
+            <a href="calendrier-de-sortie.html">Calendrier de sortie</a>
+            <a href="recommandation.html">Recommandation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button id="menuSelector">Menu</button>
+
+        <form class="d-flex">
+            <input type="text" placeholder="Rechercher...">
+            <button class="search">
+                <img class="icon" src="./images/magnifying-glass-solid.svg" alt="Search">
+            </button>
+        </form>
+    </header>
+
+    <div id="mobileNav">
+        <nav class="monMenu">
+            <a href="index.html">Accueil</a>
+            <a href="series.html">Séries</a>
+            <a href="calendrier-de-sortie.html">Calendrier de sortie</a>
+            <a href="recommandation.html">Recommandation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <form class="d-flex">
+            <input type="text" placeholder="Rechercher...">
+            <button class="search">
+                <img class="icon" src="./images/magnifying-glass-solid.svg" alt="Search">
+            </button>
+        </form>
+    </div>
+
+    <main>
+        <section class="d-flex wrap g-1 w-1200 m-auto jc-sa ai-c mb-1">
+            <div class="col">
+                <!-- SEO  -->
+                <h1>Alpha-Series<br>organiser vos séries TV</h1>
+                <p>Nous sommesla première application a vous permettre de d'organiser vos série TV et de planifier leur
+                    visionnage</p>
+                <a id="commencez" href="#">Commencez</a>
+            </div>
+            <div class="col">
+                <video controls src="./videos/balloon.mp4"></video>
+            </div>
+        </section>
+        <img class="w-1200" id="placeholder" src="./images/placeholder-photo.jpg" alt="">
+        <section class="w-1200 m-auto mb-1">
+            <h2>Notre sélection de séries du mois de février 2022</h2>
+            <div class="d-flex wrap g-1 jc-sa">
+                <article class="col">
+                    <!-- SEO Pour les images mettre width & height-->
+                    <div class="relative ">
+                        <img id="imgHover" src="./images/gotham-640-360.webp" alt="Photo de substitution" width="400"
+                            height="225" loading="lazy">
+                        <img id="imgHoverbis" src="./images/code-640-360.jpg" alt="Photo de substitution" width="400"
+                            height="225" loading="lazy">
+                        <div class="categorie">
+                            Comics
+                        </div>
+                    </div>
+                    <div class="p-1">
+                        <h3>Série : Gotham</h3>
+                        <p>Tout le monde connaît le Commissaire Gordon, adversaire redouté de la pègre de Gotham City,
+                            un homme dont la réputation rime avec la loi et l'ordre. Mais que sait-on de son histoire,
+                            de son parcours ?</p>
+                    </div>
+                </article>
+                <article class="col">
+                    <!-- SEO Pour les images mettre width & height-->
+                    <div class="relative">
+                        <img src="./images/Upload_TVSeries_Review_Banner - 640-360.jpg" alt="Photo de substitution" width="400"
+                            height="225" loading="lazy">
+                        <div class="categorie">
+                            Science-fiction
+                        </div>
+                    </div>
+                    <div class="p-1">
+                        <h3>Série : Upload</h3>
+                        <p>Dans un futur où les humains sont capables de "s'uploader" dans la vie après la mort, Nathan,
+                            mort prématurément, est accueilli dans sa version du paradis par une certaine Nora. Il va
+                            lui
+                            fa...</p>
+                    </div>
+                </article>
+                <article class="col">
+                    <!-- SEO Pour les images mettre width & height-->
+                    <div class="relative">
+                        <img src="./images/GreysAnatomyMainLogo-640-360.jpg" alt="Photo de substitution" width="400"
+                            height="225" loading="lazy">
+                        <div class="categorie">
+                            Comedie
+                        </div>
+                    </div>
+                    <div class="p-1">
+                        <h3>Série : Grey's anatomy</h3>
+                        <p>Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en
+                            médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir </p>
+                    </div>
+                </article>
+
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div id="mountain">
+
+    </div>
+
+    <footer class="d-flex wrap">
+
+        <section class="footer-section">
+            <h3>Titre 1</h3>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+        </section>
+
+        <section class="footer-section">
+            <h3>Titre 2</h3>
+            <ol>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ol>
+        </section>
+
+        <section class="footer-section">
+            <h3>Titre 3</h3>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+        </section>
+
+        <div class="w-full">
+            <p class="text-c"> &copy; Alpha-Series 2022 </p>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/mon-script.js"></script>
+</body>
+
+</html>
